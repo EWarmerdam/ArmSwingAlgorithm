@@ -10,7 +10,7 @@ function [ arm_swing ] = arm_swing_algorithm( ang_vel, fs, TH_min_ampl, varargin
 % toolbox
 %**************************************************************************
 %   input:
-%          ang_vel     = raw angular velocity from IMU (x forward (direction of thumb), y left and z
+%          ang_vel     = raw angular velocity (rad/s) from IMU (x forward (direction of thumb), y left and z
 %                        vertical in n pose (Nx3 when using one IMU and Nx6 when using two IMUs
 %                        (first three channels left, last three right arm))
 %          fs          = sample frequency of the IMU
